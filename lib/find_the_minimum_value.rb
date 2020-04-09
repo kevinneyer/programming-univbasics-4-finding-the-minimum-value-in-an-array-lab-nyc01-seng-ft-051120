@@ -2,9 +2,10 @@ require 'pry'
 
 def find_min_value(array)
  minimum = array.min
- message = ""
  
- array.each do |n| 
+ message = " "
+ 
+ array.length do |n| 
    if array[n] <= minimum
    message = array[n]
  end
