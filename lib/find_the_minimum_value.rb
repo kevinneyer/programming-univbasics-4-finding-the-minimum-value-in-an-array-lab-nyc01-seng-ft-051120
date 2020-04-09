@@ -6,8 +6,8 @@ def find_min_value(array)
  
  array.length.times do |f| 
    if array[f] <= minimum
-   message = array[n]
- end
+   message = array[f]
+   end
  end
     message  
 end
