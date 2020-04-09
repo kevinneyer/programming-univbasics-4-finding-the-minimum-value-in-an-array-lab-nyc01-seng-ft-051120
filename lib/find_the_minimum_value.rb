@@ -5,8 +5,8 @@ def find_min_value(array)
  
  message = " "
  
- array.length do |n| 
-   if array[n] <= minimum
+ array.length do |f| 
+   if array[f] <= minimum
    message = array[n]
  end
     message  
