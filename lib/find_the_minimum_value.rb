@@ -1,7 +1,7 @@
 require 'pry'
 
 def find_min_value(array)
- minimum = aray.min
+ minimum = array.min
  message = ""
  
  array.each do |n| 
