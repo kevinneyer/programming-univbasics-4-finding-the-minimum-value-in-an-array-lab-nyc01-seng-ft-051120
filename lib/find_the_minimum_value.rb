@@ -6,7 +6,7 @@ def find_min_value(array)
   
   array.index do |f|
     i = 1
-    if array[f] < array[i]
+    if array[f] < array[f+1]
       message = array[f]
     end
     i += 1 
