@@ -8,5 +8,6 @@ def find_min_value(array)
    if array[f] <= minimum
    message = array[n]
  end
+ end
     message  
 end
